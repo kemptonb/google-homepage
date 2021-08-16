@@ -1,0 +1,1 @@
+Project replicating Google's homepage using basic web development principles and tools (HTML, CSS, Git, GitHub).
