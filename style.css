@@ -78,18 +78,18 @@ a:visited {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: #fff;
   height: 100%;
 }
 
 .logo-sub-div {
   display: flex;
-  background-color: red;
+  background-color: #FFF;
   padding: 1em;
 }
 
 .logo-sub-div img{
-
+ 
 }
 /* End Logo */
 
@@ -104,8 +104,56 @@ a:visited {
 
 /* Footer */
 footer {
-  background-color: coral;
-  padding: 3em;
+  background-color:#f2f2f2;
+  padding: 4em 2em 1.3em 2em;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  margin: 0em 1em 0em 1em;
+}
+
+
+.footer-content-one {
+
+
+  flex-grow: 1;
+  display: flex;
+ 
+}
+
+.footer-content-two {
+
+  
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Footer End */
+
+
+
+
+@media only screen and (max-width: 800px) {
+  footer {flex-direction: column;}
+  .footer-content-one {width:100%; justify-content: center;}
+  .footer-content-two {width:100%; justify-content: center;}
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  #navbar-container-six {
+   padding: 0.5em 0.7em 0.5em 0.7em;
+  }
+  #navbar-container-five {padding: 0.3em 0.3em 0em 0.3em; margin-left: 0em;}
+}
+
