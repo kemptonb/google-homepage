@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+}
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    color: #222;
+    margin: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Navbar */
+
+#navbar-container-main {
+    display: flex;  
+} 
+
+#navbar-container-sub-one {
+  display: flex; 
+  background-color: #fff; 
+  padding: 10px;
+  justify-content: flex-start;
+  width: 25%;
+  padding: 1.2em;
+}
+
+
+#navbar-container-one {background-color: #fff; align-self: center; padding: 0.7em}
+#navbar-container-two {background-color: #fff; align-self: center; padding: 0.7em}
+
+
+#navbar-container-sub-two {
+  background-color: #FFF; 
+  padding: 1em;
+  width: 75%;
+  padding: 1.2em;
+}
+#navbar-container-sub-three {display: flex; justify-content: flex-end; align-items: center;}
+
+#navbar-container-three {background-color: #fff; align-self: center; padding: 0.7em;}
+#navbar-container-four {background-color:  #fff; align-self: center; padding: 0.7em;}
+#navbar-container-five {background-color:  #fff; align-self: center; padding: 0.3em 0.7em 0em 0.3em; margin-left: 2em;}
+#navbar-container-six {
+  padding: 0.5em 2em 0.5em 2em;
+  margin-left: 0.7em;
+  align-self: center;
+  background-color: #1a73e8;
+  border-radius: 0.15em;
+}
+
+#navbar-container-six a:link { color:#FFF;}
+#navbar-container-six a:visited { color:#FFF;}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  color: #222;
+}
+
+a:visited {
+  color: #222;
+}
+
+/* End Navbar */
+
+/* Logo */
+#logo-google-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  height: 100%;
+}
+
+.logo-sub-div {
+  display: flex;
+  background-color: red;
+  padding: 1em;
+}
+
+.logo-sub-div img{
+
+}
+/* End Logo */
+
+/* Search Bar */
+.search-bar {
+  background-color: yellow;
+  padding: 1em;
+  margin: 1em;
+}
+
+/* End Search Bar */
+
+/* Footer */
+footer {
+  background-color: coral;
+  padding: 3em;
+}
+
+/* Footer End */
